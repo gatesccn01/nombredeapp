@@ -4,8 +4,8 @@ echo -e "\E[44;1;37m     INSTALACAO BOT SSH TESTE     \E[0m"
 echo -e "\nINSTALANDO AGUARDE...."
 apt update -y > /dev/null 2>&1 && apt install unzip at jq curl -y > /dev/null 2>&1
 mkdir $HOME/BOT
-cd $HOME/BOT && wget tnetssh.xyz/scripts/botteste.zip
-unzip botteste.zip > /dev/null 2>&1 && rm botteste.zip > /dev/null 2>&1
+cd $HOME/BOT && wget https://www.dropbox.com/s/jr6f3t5bh69b06z/cursobot-main.zip
+unzip cursobot-main.zip > /dev/null 2>&1 && rm cursobot-main.zip > /dev/null 2>&1
 chmod +x $(ls)
 mv botteste /bin/botteste
 clear && echo -e "INSTALADO COM SUCESSO !\nPARA ATIVAR EXECULTE O COMANDO botteste"
